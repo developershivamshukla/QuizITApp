@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A120DD"
     tools:context=".Result">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
         android:text="@string/resultText"
+        android:fontFamily="casual"
         android:textSize="36sp" />
 
     <TextView
@@ -23,10 +25,12 @@
         android:layout_marginTop="45dp"
         android:layout_toStartOf="@+id/textView2"
         android:text="@string/langText"
+        android:fontFamily="casual"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/language"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +40,8 @@
         android:textSize="18sp" />
 
     <TextView
+        android:fontFamily="casual"
+        android:fontFamily="casual"
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,6 +62,7 @@
         android:textSize="18sp" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,6 +74,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/correct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,6 +84,7 @@
         android:textSize="18sp" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,6 +96,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/wrong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -96,6 +106,7 @@
         android:textSize="18sp" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -107,6 +118,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:fontFamily="casual"
         android:id="@+id/percent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -121,7 +133,24 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="35dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="casual"
         android:text="@string/thanksText"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/keepPlaying"
+        android:layout_toStartOf="@+id/textView2"
+        android:text="Restart" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/keepPlaying"
+        android:layout_alignEnd="@+id/language"
+        android:text="Exit" />
 </RelativeLayout>
