@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:layout_weight="4.2"
-        android:background="#43abd9"
+        android:background="#716CFF"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -24,7 +24,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_dark"
+            android:background="#716CFF"
             android:minHeight="?attr/actionBarSize"
             app:titleTextColor="@android:color/black"></android.support.v7.widget.Toolbar>
 
@@ -84,7 +84,7 @@
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1.8"
-        android:background="#bdbdbd"
+        android:background="#000000"
         android:gravity="center_vertical">
 
         <LinearLayout
