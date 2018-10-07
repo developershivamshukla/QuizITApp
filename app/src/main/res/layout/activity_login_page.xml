@@ -31,9 +31,10 @@
 
         <ImageView
             android:id="@+id/icon"
-            android:layout_width="280dp"
+            android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_marginTop="45dp"
+            android:background="@drawable/quizlogo"
             android:contentDescription="@string/desc_firebase_lockup"
             />
 
