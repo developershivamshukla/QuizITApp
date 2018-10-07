@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuestionView"
+    android:background="#08CEBD"
     >
 
     <RadioGroup
@@ -62,10 +63,11 @@
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/options"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginBottom="90dp"
+        android:background="#1CBB02"
+        android:layout_marginStart="82dp"
         android:text="@string/submitText" />
 
     <Button
@@ -74,16 +76,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/submit"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="65dp"
+        android:background="#FD1B00"
         android:text="@string/skipText" />
 
     <TextView
         android:id="@+id/question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="34dp"
         android:text="TextView"
         android:textSize="24sp" />
 </RelativeLayout>
